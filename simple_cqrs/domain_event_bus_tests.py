@@ -1,6 +1,7 @@
 from threading import Thread
 
-from simple_cqrs.domain_event_bus import DomainEvent, DomainEventBus, DomainEventHandler
+from simple_cqrs.domain_event import DomainEvent
+from simple_cqrs.domain_event_bus import DomainEventBus, DomainEventHandler
 from simple_cqrs.debugger import Debugger
 
 

@@ -1,6 +1,6 @@
 from typing import List, Optional
 
-from simple_cqrs.domain_event_bus import DomainEvent
+from simple_cqrs.domain_event import DomainEvent
 
 
 class EventStream:

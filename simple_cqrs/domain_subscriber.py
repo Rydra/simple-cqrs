@@ -3,7 +3,7 @@
 from funcy import lfilter
 from methoddispatch import SingleDispatch, singledispatch
 
-from simple_cqrs.domain_event_bus import DomainEvent
+from simple_cqrs.domain_event import DomainEvent
 
 
 class DomainEventHandler(SingleDispatch):
